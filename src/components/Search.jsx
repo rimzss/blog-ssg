@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { BiSearch } from "react-icons/bi";
 
-const Search = ({ resultBlogs, setResultBlogs }) => {
+const Search = ({}) => {
   // DATA DOWNLOADER FUNCTIONS
   let [blogs, setBlogs] = useState([]);
   const fetchData = async () => {

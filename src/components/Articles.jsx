@@ -13,7 +13,6 @@ const Articles = ({ blogs }) => {
         <div className="w-5/6 flex justify-center mt-10 mx-auto">
           <Button
             className="text-secondary500 border-secondary500"
-            onClick={() => setPostNumber(postNumber + 3)}
             variant="outlined"
           >
             Load More

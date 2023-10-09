@@ -8,7 +8,7 @@ import { BiSearch } from "react-icons/bi";
 import { usePathname } from "next/navigation";
 
 import Search from "./Search";
-const Nav = ({ resultBlogs, setResultBlogs }) => {
+const Nav = () => {
   // PHONE MENU FUNCTIONS
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -92,7 +92,6 @@ const Nav = ({ resultBlogs, setResultBlogs }) => {
             <li className="hover:font-medium">Contact</li>
           </Link>
         </ul>
-        <Search resultBlogs={resultBlogs} setResultBlogs={setResultBlogs} />
         <div className="block md:hidden">
           <Button
             className="text-secondary500 text-xl"
